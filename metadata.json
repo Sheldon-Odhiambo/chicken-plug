@@ -1,0 +1,8 @@
+
+{
+  "name": "Chicken Plug Barut",
+  "description": "Nakuru's premier spot for freshly roasted chicken, dairy products, bakery items, and authentic spices.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
