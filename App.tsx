@@ -19,7 +19,7 @@ import {
 import { PRODUCTS, BUSINESS_DETAILS } from './constants';
 import { Product, CartItem } from './types';
 import Cart from './components/Cart';
-import SpiceAssistant from './components/SpiceAssistant';
+// import SpiceAssistant from './components/SpiceAssistant';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 const App: React.FC = () => {
