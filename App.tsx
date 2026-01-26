@@ -19,7 +19,7 @@ import {
 import { PRODUCTS, BUSINESS_DETAILS } from './constants';
 import { Product, CartItem } from './types';
 import Cart from './components/Cart';
-// import SpiceAssistant from './components/SpiceAssistant';
+import SpiceAssistant from './components/SpiceAssistant';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 const App: React.FC = () => {
@@ -253,7 +253,7 @@ const App: React.FC = () => {
       </main>
 
       {/* Spice Assistant Section */}
-      <section className="py-24 bg-[#042f1e] text-white relative overflow-hidden">
+      {/* <section className="py-24 bg-[#042f1e] text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">
            <div className="grid grid-cols-12 h-full w-full">
               {[...Array(24)].map((_, i) => (
@@ -284,7 +284,7 @@ const App: React.FC = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
       <footer className="bg-white pt-24 pb-12 border-t border-gray-100">
